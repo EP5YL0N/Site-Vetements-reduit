@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* General*/
+
+
+*{
+    font-family: 'Montserrat';
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+}
+
+header.header img{
+    width: 100px;
+}
+
+section.top-page {
+    background: url('../img/wallpaper3.png');
+    background-size: cover;
+    height: 70vh;
+    padding: 25px;
+}
+
+
+/* page de bienvenue */
+
+.landing-page{
+    padding: 20px;
+}
+
+.big-title{
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+}
+
+.scroll-down{
+    color: b;
+    text-decoration: none;
+    position: absolute;
+    bottom: 240px;
+    color: white;
+}
+
+/* menu de navigation */
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+
+nav.nav{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 30px;
+    justify-content: space-between; /* space between prend tout l'espace de la boire*/
+}
+
+nav.nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 30;
+    height: 30;
+}
+
+nav.nav li a img{
+    max-width: 35px;
+    max-height: 35px;
+
+}
+
+/* services */
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery-icon{
+    font-size: 50px;
+    color: #d84f4f;
+}
+
+.service-details{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+
+/* Page sneaker */
+
+section.top-page-sneaker {
+    background: url('../img/wallpaper7.jpg');
+    background-size: cover;
+    height: 70vh;
+    padding: 25px;
+}
+
+    /* services */
+
+.services-sneaker{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+    
+.service-item-sneaker{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.sneaker-icon{
+    font-size: 50px;
+    color: #bb15ca;
+}
+    
+.service-details-sneaker{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+
+.title-sneaker{
+    font-size: 50px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+    position: relative;
+    color: white;
+    margin-top: 0px;
+    margin: 50;
+}
+
+.title-sneaker::before{
+    content: "";
+    position: absolute;
+    background-color: #bb15ca;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-items-sneakers{
+    background-color: black;
+    margin: 150px;
+}
+
+div.sneaker-content{
+    
+    position: relative;
+    top: 25px;
+    margin: 50px;
+}

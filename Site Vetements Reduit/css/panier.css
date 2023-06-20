@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* General*/
+
+
+*{
+    font-family: 'Montserrat';
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+}
+
+header.header img{
+    width: 100px;
+}
+
+section.top-page-panier {
+    background: url('../img/black_wall.jpeg');
+    background-size: cover;
+    height: 70vh;
+    padding: 25px;
+}
+
+
+/* page de bienvenue */
+
+.landing-page{
+    padding: 20px;
+}
+
+.big-title{
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+}
+
+.scroll-down{
+    color: b;
+    text-decoration: none;
+    position: absolute;
+    bottom: 240px;
+    color: white;
+}
+
+/* menu de navigation */
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+
+nav.nav{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 30px;
+    justify-content: space-between; /* space between prend tout l'espace de la boire*/
+}
+
+nav.nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 30;
+    height: 30;
+}
+
+nav.nav li a img{
+    max-width: 35px;
+    max-height: 35px;
+
+}
+
+/* services-contacts */
+
+.services-panier{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item-panier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panier-icon{
+    font-size: 50px;
+    color: #000000;
+}
+
+.service-details-panier{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
